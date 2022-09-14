@@ -94,22 +94,6 @@
           image.src = array[index].image;
         });
         
-        $(document).ready(function() {
-        
-        //Seçim yapılıp butona tıklandığında çalışacak kodlar
-        
-        $("#btn").on("click",function(){
-        //var sonuc;
-        alert($("#secim").val());
-        });
-        
-        //Seçim değiştiğinde çalışacak kodlar
-        
-        $("#secim").on("change",function(){
-        $("#kutu").html($("#secim").val());
-        })
-        
-        });
     </script>
 
     </body>
